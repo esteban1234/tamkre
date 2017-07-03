@@ -1,0 +1,451 @@
+/*@media screen and (max-width: 299px){*/
+  /*.izquierda, .derecha{
+    width: 100%;
+    margin: 10px auto;
+    text-align: center;
+  }*/
+
+  /*.izquierda span, .derecha span{
+    margin: 10px;
+  }*/
+
+  /*.logo{
+    width: 60%;
+  }*/
+
+/*}*/
+
+
+@media screen and (max-width: 480px){
+  .izquierda, .derecha{
+    width: 100%;
+    margin: 15px auto;
+    text-align: center;
+  }
+
+  .izquierda span, .derecha span{
+    margin: 10px;
+  }
+
+  .logo{
+    width: 50%;
+  }
+
+  .menu{
+    /*z-index: 100;*/
+    position: fixed;
+    top: 0px;
+    height: 100%;
+  }
+
+  .bt-menu{
+    position: fixed;
+    z-index: 100;
+    top: 1%;
+    right: 3%;
+    cursor: pointer;
+    display: block;
+    background-color: #fff;
+    padding: 10px;
+  }
+
+
+  nav{
+    border-top: .8px solid rgba(255,255,255,0.4);
+    border-bottom: .8px solid rgba(255,255,255,0.4);
+    border-left: .8px solid rgba(255,255,255,0.4);
+    width: 60%;
+    height: 100%;
+    margin-left: -300px;
+    background-color: rgba(0,0,0,0.9);
+  }
+
+  nav ul{
+    width: 100%;
+  }
+
+  nav ul  a{
+    width: 100%;
+    display: inline-block;
+    padding: 10px !important;
+    margin:1px auto;
+    color: #fff !important;
+  }
+
+  .cerrar{
+    border-top: .8px solid rgba(255,255,255,0.4);
+    border-bottom: .8px solid rgba(255,255,255,0.4);
+    border-right: .8px solid rgba(255,255,255,0.4);
+    background-color: rgba(0,0,0,0.9);
+    position: absolute;
+    right: -200px;
+    top: 0px;
+    color: #fff;
+    width: 40%;
+    padding: 15px;
+    cursor: pointer;
+    display: block;
+  }
+
+  .banner{
+    height: 100%;
+    padding: 20px 0px;
+  }
+
+  .banner p{
+    width: 90%;
+    margin: auto;
+    font-size: 20px;
+  }
+
+  .banner a{
+    display: none;
+  }
+
+  #nosotros{
+    height: 100% !important;
+  }
+
+  #nosotros h1, #servicios h1, #contacto h1{
+    text-align: center;
+  }
+
+  #nosotros .thumbnail{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    margin: 10px auto;
+  }
+
+  #nosotros .thumbnail .caption p{
+    margin: 0px;
+    padding: 0px;
+    text-align: justify;
+  }
+
+  .timeline-title{
+    text-align: center;
+  }
+
+  .timeline-heading p{
+    display: none;
+  }
+
+
+  .well h3{
+    text-align: center;
+  }
+
+  .well p{
+    line-height: 100% !important;
+    text-align: center;
+    padding-top: 5px;
+  }
+
+  iframe{
+    width: 100% !important;
+    margin-bottom: 10px;
+  }
+
+  .ir-arriba{
+    z-index: 2000;
+  }
+
+  footer p{
+    width: 90%;
+    padding-top: 15px;
+  }
+}
+
+@media screen and (max-width: 599px) and (min-width: 481px) {
+  .menu{
+    /*z-index: 100;*/
+    position: fixed;
+    top: 0px;
+    height: 100%;
+  }
+
+  .bt-menu{
+    position: fixed;
+    z-index: 100;
+    top: 1%;
+    right: 3%;
+    cursor: pointer;
+    display: block;
+    background-color: #fff;
+    padding: 10px;
+  }
+
+  nav{
+    border-top: .8px solid rgba(255,255,255,0.4);
+    border-bottom: .8px solid rgba(255,255,255,0.4);
+    border-left: .8px solid rgba(255,255,255,0.4);
+    width: 60%;
+    height: 100%;
+    margin-left: -100%;
+    background-color: rgba(0,0,0,0.9);
+  }
+
+  nav ul{
+    width: 100%;
+  }
+
+  nav ul  a{
+    width: 100%;
+    display: inline-block;
+    padding: 10px !important;
+    margin:1px auto;
+    color: #fff !important;
+  }
+
+  .cerrar{
+    border-top: .8px solid rgba(255,255,255,0.4);
+    border-bottom: .8px solid rgba(255,255,255,0.4);
+    border-right: .8px solid rgba(255,255,255,0.4);
+    background-color: rgba(0,0,0,0.9);
+    position: absolute;
+    right: -100%;
+    top: 0px;
+    color: #fff;
+    width: 40%;
+    padding: 15px;
+    cursor: pointer;
+    display: block;
+  }
+
+  .banner{
+    height: 100%;
+    padding: 20px 0px;
+  }
+
+  .banner p{
+    width: 90%;
+    margin: auto;
+    font-size: 20px;
+  }
+
+  .timeline-panel, .ir-arriba{
+    z-index: 2000;
+  }
+
+  #nosotros{
+    height: 100% !important;
+  }
+
+  #nosotros h1, #servicios h1, #contacto h1{
+    text-align: center;
+  }
+
+  #nosotros .thumbnail{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    margin: 10px auto;
+  }
+
+  #nosotros .thumbnail .caption p{
+    margin: 0px;
+    padding: 0px;
+    text-align: justify;
+  }
+
+  .timeline-title{
+    text-align: center;
+  }
+
+
+  .well h3{
+    text-align: center;
+  }
+
+  .well p{
+    line-height: 100% !important;
+    text-align: center;
+    padding-top: 5px;
+  }
+
+  iframe{
+    width: 100% !important;
+    margin-bottom: 10px;
+  }
+
+  footer p{
+    width: 90%;
+    padding-top: 18px;
+  }
+}
+
+@media screen and (max-width: 799px) and (min-width: 600px) {
+  .menu{
+    /*z-index: 100;*/
+    position: fixed;
+    top: 0px;
+    height: 100%;
+  }
+
+  .bt-menu{
+    position: fixed;
+    z-index: 100;
+    top: 1%;
+    right: 3%;
+    cursor: pointer;
+    display: block;
+    background-color: #fff;
+    padding: 10px;
+  }
+  
+  nav{
+    border-top: .8px solid rgba(255,255,255,0.4);
+    border-bottom: .8px solid rgba(255,255,255,0.4);
+    border-left: .8px solid rgba(255,255,255,0.4);
+    width: 60%;
+    height: 100%;
+    margin-left: -100%;
+    background-color: rgba(0,0,0,0.9);
+  }
+
+  nav ul{
+    width: 100%;
+  }
+
+  nav ul  a{
+    width: 100%;
+    display: inline-block;
+    padding: 10px !important;
+    margin:1px auto;
+    color: #fff !important;
+  }
+
+  .cerrar{
+    border-top: .8px solid rgba(255,255,255,0.4);
+    border-bottom: .8px solid rgba(255,255,255,0.4);
+    border-right: .8px solid rgba(255,255,255,0.4);
+    background-color: rgba(0,0,0,0.9);
+    position: absolute;
+    right: -100%;
+    top: 0px;
+    color: #fff;
+    width: 40%;
+    padding: 15px;
+    cursor: pointer;
+    display: block;
+  }
+
+  .banner{
+    height: 100%;
+    padding: 20px 0px;
+  }
+
+  .banner p{
+    width: 90%;
+    margin: auto;
+    font-size: 20px;
+  }
+
+  .timeline-panel, .ir-arriba{
+    z-index: 2000;
+  }
+
+  #nosotros{
+    height: 100% !important;
+  }
+
+  #nosotros h1, #servicios h1, #contacto h1{
+    text-align: center;
+  }
+
+  #nosotros .thumbnail{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    margin: 10px auto;
+  }
+
+  #nosotros .thumbnail .caption p{
+    margin: 0px;
+    padding: 0px;
+    text-align: justify;
+  }
+
+
+  .well h3{
+    text-align: center;
+  }
+
+  .well p{
+    line-height: 100% !important;
+    text-align: center;
+    padding-top: 5px;
+  }
+
+  iframe{
+    width: 100% !important;
+    margin-bottom: 10px;
+  }
+
+  footer p{
+    width: 90%;
+    padding-top: 18px;
+  }
+}
+
+@media screen and (max-width: 1023px) and (min-width: 800px) {
+
+  .menu{
+    /*border: 2px solid yellow;*/
+    top: 43%;
+  }
+
+  nav{
+    /*border: 2px solid red;*/
+    height: 100%;
+  }
+
+  .banner{
+    /*border: 2px solid red;*/
+    margin-top: 6%;
+  }
+
+  #nosotros .thumbnail{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    margin: 10px auto;
+  }
+
+  .well p{
+    line-height: 100% !important;
+  }
+
+  iframe{
+    width: 100% !important;
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 1280px) and (min-width: 1024px) {      /* mac*/
+  .menu{
+    top: 53%;
+  }
+
+  .well p{
+    line-height: 100% !important;
+  }
+
+  .banner{
+    margin-top: 7%;
+  }
+
+  #nosotros .thumbnail{
+    height: 100%;
+    padding: 10px;
+  }
+
+  iframe{
+    width: 100% !important;
+    margin-bottom: 10px;
+  }
+}
+@media screen and (max-width: 1366px) and (min-width: 1024px) { }
+
+@media screen and (min-width: 1367px) { }

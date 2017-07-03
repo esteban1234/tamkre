@@ -21,6 +21,10 @@
     <img src="img/tamkre.png" alt="" class="img-responsive">
 </figure>
 
+<div class="bt-menu">
+  <i id="open" class="fa fa-align-justify fa-2x" aria-hidden="true"></i>
+</div>
+
 <div class="menu">
     <nav>
         <ul>
@@ -30,16 +34,19 @@
             <a href="#contacto">CONTACTO</a>
         </ul>
     </nav>
+    <div class="cerrar">
+      Cerrar
+    </div>
 </div>
 
 <div class="banner">
     <p>EL MEJOR <b style="color: #BABA16;">SURTIDO</b> AL MEJOR <b style="color: #BABA16;">PRECIO</b></p>
-   <a href="#contacto"> <button type="button" class="btn btn-success btn-lg"><span><i class="fa fa-gift" aria-hidden="true"></i></span>&nbsp;&nbsp;CONTACTANOS</button></a>
+    <a href="#contacto"> <button type="button" class="btn btn-success btn-lg"><span><i class="fa fa-gift" aria-hidden="true"></i></span>&nbsp;&nbsp;CONTACTANOS</button></a>
 </div>
 
 <div class="container" style="margin-top: 2%;" id="nosotros">
 <h1 style="color:#BABA16; border-bottom: 1px #d7dbdd solid; padding-bottom: 5px; ">Nosotros</h1>
-        <div class="thumbnail shadow-depth-1 " style="margin-top: 5%;">
+        <div class="thumbnail shadow-depth-1" style="margin-top: 5%;">
             <div class="caption">
             <p>Somos una empresa dedicada a comercializar productos de joyeria, de vestir, productos textiles y equipo para la insdustria manufacturera, ofreciendo un servicio responsable y amable, para satisfacer las necesidades de nuestros clientes. <br><br>
 
@@ -86,7 +93,7 @@
                   <p><small class="text-muted"><i class="fa fa-arrow-right" aria-hidden="true"></i> CLICK! Para leer mas...</small></p>
                 </div>
                 <div class="timeline-body">
-                  <p>Contamos con las mejores telas para vestir, decorar su vida y su casa a su gusto para eventos especiales.</p>      
+                  <p>Contamos con las mejores telas para vestir, decorar su vida y su casa a su gusto para eventos especiales.</p>
                 </div>
               </div>
             </li>
@@ -124,7 +131,7 @@
     <div class="row" style="margin-top: 5%;">
         <div class="col-sm-6">
             <div class="well">
-                <h3 style="line-height:20%;"><i class="fa fa-map-marker fa-1x" style="line-height:6%;color:#339966"></i> Direccón:</h3>               
+                <h3 style="line-height:20%;"><i class="fa fa-map-marker fa-1x" style="line-height:6%;color:#339966"></i> Direccón:</h3>
                 <p style="margin-top:6%;line-height:35%">Calle 57-B #839 entre 100-A y 104. Col. Las Americas. Mérida, Yucatán, México.</p>
                 <br />
                 <br />
@@ -142,30 +149,29 @@
         </div>
         <div class="col-sm-6">
              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3723.0269179888655!2d-89.65957808561232!3d21.071587085975167!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f567598c4886ce5%3A0x605bb8c003276c0f!2sCalle+57+838%2C+Fraccionamiento+Las+Am%C3%A9ricas%2C+M%C3%A9rida%2C+Yuc.!5e0!3m2!1ses-419!2smx!4v1485107073116" width="565" height="430" frameborder="0" style="border:0" allowfullscreen></iframe>
-
         </div>
     </div>
 
         <div class="row">
       <div class="col-md-8 col-md-offset-2">
         <div class="well well-sm">
-          <form class="form-horizontal" action="" method="post">
+          <form class="form-horizontal" action="" method="post" onSubmit="return false">
           <fieldset>
             <legend class="text-center">Formulario de contacto</legend>
-    
+
             <!-- Name input-->
             <div class="form-group">
               <label class="col-md-3 control-label" for="name">Nombre completo</label>
               <div class="col-md-9">
-                <input id="name" name="name" type="text" placeholder="Escribe tu nombre completo" class="form-control">
+                <input id="txtNOMBRE" name="name" type="text" placeholder="Escribe tu nombre completo" class="form-control">
               </div>
             </div>
-    
+
             <!-- Email input-->
             <div class="form-group">
               <label class="col-md-3 control-label" for="email">E-mail</label>
               <div class="col-md-9">
-                <input id="email" name="email" type="text" placeholder="Escribe tu correo" class="form-control">
+                <input id="txtCORREO" name="email" type="text" placeholder="Escribe tu correo" class="form-control">
               </div>
             </div>
 
@@ -173,22 +179,25 @@
             <div class="form-group">
               <label class="col-md-3 control-label" for="email">Teléfono</label>
               <div class="col-md-9">
-                <input id="email" name="email" type="text" placeholder="Escribe tu número teléfonico" class="form-control">
+                <input id="txtTELEFONO" name="email" type="text" placeholder="Escribe tu número teléfonico" class="form-control">
               </div>
             </div>
-    
+
             <!-- Message body -->
             <div class="form-group">
               <label class="col-md-3 control-label" for="message">Mensaje</label>
               <div class="col-md-9">
-                <textarea class="form-control" id="message" name="message" placeholder="Escribe tu mensaje..." rows="5"></textarea>
+                <textarea class="form-control" id="txtCOMENTARIO" name="message" placeholder="Escribe tu mensaje..." rows="5"></textarea>
               </div>
             </div>
-    
+
             <!-- Form actions -->
             <div class="form-group">
+              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <div id="_AJAX_PRE_"></div>
+              </div>
               <div class="col-md-12 text-right">
-                <button type="submit" class="btn btn-success btn-lg">ENVIAR</button>
+                <button type="submit" class="btn btn-success btn-lg btn-mostrar" onclick="sendCORREO()">ENVIAR</button>
               </div>
             </div>
           </fieldset>
@@ -203,8 +212,10 @@
 <?php include 'vistas/pie.php' ?>
 
 <script src="js/jquery.js"></script>
+<script src="js/menu.js"></script>
 <script src="js/servicios.js"></script>
 <script src="js/bootstrap.js"></script>
+<script src="js/sendCORREO.js"></script>
 <script src="https://pingendo.com/assets/scripts/smooth-scroll.js"></script>
 <script src="js/botonarriba.js"></script>
 
