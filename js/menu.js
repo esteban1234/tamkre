@@ -49,25 +49,25 @@ function main () {
       });
 
 
-			$('nav ul a').click(function(e){
-	    		e.preventDefault();
-	        $('nav').animate({
-	          marginLeft: '-100%'
-	        },800);
-
-	        $('.cerrar').animate({
-	          right: '-100%',
-	        },400);
-
-	        $('.bt-menu').animate({
-	          right: '3%'
-						// zIndex:120
-	        },400);
-
-					$('.menu').animate({
-						zIndex:0
-					},400);
-	      });
+			// $('nav ul a').click(function(e){
+	    // 		e.preventDefault();
+	    //     $('nav').animate({
+	    //       marginLeft: '-100%'
+	    //     },800);
+			//
+	    //     $('.cerrar').animate({
+	    //       right: '-100%',
+	    //     },400);
+			//
+	    //     $('.bt-menu').animate({
+	    //       right: '3%'
+			// 			// zIndex:120
+	    //     },400);
+			//
+			// 		$('.menu').animate({
+			// 			zIndex:0
+			// 		},400);
+	    //   });
 
 
 
