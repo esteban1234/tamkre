@@ -32,13 +32,18 @@
   }
 
   .menu{
+<<<<<<< HEAD
     z-index: 100;
+=======
+    /*z-index: 100;*/
+>>>>>>> ee25fe35598faeb497d445c336d684559b158496
     position: fixed;
     top: 0px;
     height: 100%;
   }
 
   .bt-menu{
+<<<<<<< HEAD
     position: absolute;
     z-index: 120;
     top: 28%;
@@ -47,6 +52,19 @@
     display: block;
   }
 
+=======
+    position: fixed;
+    z-index: 100;
+    top: 1%;
+    right: 3%;
+    cursor: pointer;
+    display: block;
+    background-color: #fff;
+    padding: 10px;
+  }
+
+
+>>>>>>> ee25fe35598faeb497d445c336d684559b158496
   nav{
     border-top: .8px solid rgba(255,255,255,0.4);
     border-bottom: .8px solid rgba(255,255,255,0.4);
@@ -156,19 +174,34 @@
 
 @media screen and (max-width: 599px) and (min-width: 481px) {
   .menu{
+<<<<<<< HEAD
     z-index: 1000;
+=======
+    /*z-index: 100;*/
+>>>>>>> ee25fe35598faeb497d445c336d684559b158496
     position: fixed;
     top: 0px;
     height: 100%;
   }
 
   .bt-menu{
+<<<<<<< HEAD
     position: absolute;
     z-index: 2002;
     top: 18%;
     right: 7%;
     cursor: pointer;
     display: block;
+=======
+    position: fixed;
+    z-index: 100;
+    top: 1%;
+    right: 3%;
+    cursor: pointer;
+    display: block;
+    background-color: #fff;
+    padding: 10px;
+>>>>>>> ee25fe35598faeb497d445c336d684559b158496
   }
 
   nav{
@@ -272,13 +305,18 @@
 
 @media screen and (max-width: 799px) and (min-width: 600px) {
   .menu{
+<<<<<<< HEAD
     z-index: 1000;
+=======
+    /*z-index: 100;*/
+>>>>>>> ee25fe35598faeb497d445c336d684559b158496
     position: fixed;
     top: 0px;
     height: 100%;
   }
 
   .bt-menu{
+<<<<<<< HEAD
     position: absolute;
     z-index: 2002;
     top: 18%;
@@ -287,6 +325,18 @@
     display: block;
   }
 
+=======
+    position: fixed;
+    z-index: 100;
+    top: 1%;
+    right: 3%;
+    cursor: pointer;
+    display: block;
+    background-color: #fff;
+    padding: 10px;
+  }
+  
+>>>>>>> ee25fe35598faeb497d445c336d684559b158496
   nav{
     border-top: .8px solid rgba(255,255,255,0.4);
     border-bottom: .8px solid rgba(255,255,255,0.4);

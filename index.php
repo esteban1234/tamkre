@@ -193,9 +193,17 @@
 
             <!-- Form actions -->
             <div class="form-group">
+<<<<<<< HEAD
               <div id="_AJAX_PRE_"></div>
               <div class="col-md-12 text-right">
                 <button type="submit" class="btn btn-success btn-lg" onclick="sendCORREO()">ENVIAR</button>
+=======
+              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <div id="_AJAX_PRE_"></div>
+              </div>
+              <div class="col-md-12 text-right">
+                <button type="submit" class="btn btn-success btn-lg btn-mostrar" onclick="sendCORREO()">ENVIAR</button>
+>>>>>>> ee25fe35598faeb497d445c336d684559b158496
               </div>
             </div>
           </fieldset>
