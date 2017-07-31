@@ -13,16 +13,16 @@ function sendCORREO(){
 			result = '<div class="alert alert-dismissible alert-danger">';
 				result += '<button type="button" class="close" data-dismiss="alert">&times;</button>';
             	result +='<p><strong> Ingrese un correo CORRECTO</strong></p>';
-        		result +='</div>';	
-        		__('_AJAX_PRE_').innerHTML = result;		
+        		result +='</div>';
+        		__('_AJAX_PRE_').innerHTML = result;
 
         	if(!exprNUMERO.test(txtTELEFONO)){
 
 			result = '<div class="alert alert-dismissible alert-danger">';
 				result += '<button type="button" class="close" data-dismiss="alert">&times;</button>';
             	result +='<p><strong> el campo Telefono, tiene que ser solo NUMERICO</strong></p>';
-        		result +='</div>';	
-        		__('_AJAX_PRE_').innerHTML = result;		
+        		result +='</div>';
+        		__('_AJAX_PRE_').innerHTML = result;
 			}
 		}
 		else
@@ -35,18 +35,18 @@ function sendCORREO(){
 					  	location.reload();
 
 					}
-					
+
 					else{
 						__('_AJAX_PRE_').innerHTML = connect.responseText;
 					}
 				}
 
-				else if (connect.readyState != 4){					
+				else if (connect.readyState != 4){
 					LimpiarCampos();
 				}
 			}
 
-			connect.open('POST','envia.php',true);
+			connect.open('POST','vistas/envia.php',true);
 			connect.setRequestHeader('Content-Type','application/x-www-form-urlencoded');
 			connect.send(form);
 		}
@@ -57,7 +57,7 @@ function sendCORREO(){
 		result = '<div class="alert alert-dismissible alert-danger">';
 				result += '<button type="button" class="close" data-dismiss="alert">&times;</button>';
             	result +='<p><strong> Todos los campos deben estar llenos</strong></p>';
-        		result +='</div>';	
+        		result +='</div>';
         		__('_AJAX_PRE_').innerHTML = result;
 	}
 

@@ -36,6 +36,12 @@
   top: 280px;
 
 }
+
+.cerrar, .bt-menu{
+  display: none;
+}
+
+
 .menu nav{
 
 }
